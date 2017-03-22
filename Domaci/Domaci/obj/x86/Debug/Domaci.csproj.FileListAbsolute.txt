@@ -1,0 +1,5 @@
+F:\College\Semestar6\SNUS\Domaci\Domaci\Domaci\bin\Debug\Domaci.exe
+F:\College\Semestar6\SNUS\Domaci\Domaci\Domaci\bin\Debug\Domaci.pdb
+F:\College\Semestar6\SNUS\Domaci\Domaci\Domaci\obj\x86\Debug\Domaci.exe
+F:\College\Semestar6\SNUS\Domaci\Domaci\Domaci\obj\x86\Debug\Domaci.pdb
+F:\College\Semestar6\SNUS\Domaci\Domaci\Domaci\obj\x86\Debug\Domaci.csprojResolveAssemblyReference.cache
