@@ -15,38 +15,49 @@ namespace Domaci
             while (Option != 0)
             {
                 menu();
-                Option = Convert.ToInt32(System.Console.ReadLine());
-                double tmp;
-
-                switch (Option)
+                try
                 {
-                    case 1: 
-                        Console.WriteLine("Input temperature value in farenheit:");
-                        try
-                        {
-                            tmp = Convert.ToDouble(Console.ReadLine());
-                            TemperatureConvertor TC = new TemperatureConvertor(tmp);
-                            Console.WriteLine(TC.CelsiusToFaren());
-                        }
-                        catch
-                        {
-                            Console.WriteLine("Greska u parametrima!");
-                        }
-                        break;
-                    case 2: 
-                        Console.WriteLine("Input temperature value in celsius:");
-                        try
-                        {
-                            tmp = Convert.ToDouble(Console.ReadLine());
-                            TemperatureConvertor TC1 = new TemperatureConvertor(tmp);
-                            Console.WriteLine(TC1.FarenToCelsius());
-                        }
-                        catch
-                        {
-                            Console.WriteLine("Greska u parametrima!");
-                        }
-                        break;
-                    default: break;
+                    Option = Convert.ToInt32(System.Console.ReadLine());
+                    double tmp;
+
+                    switch (Option)
+                    {
+                        case 1:
+                            Console.WriteLine("Input temperature value in celsius:");
+                            try
+                            {
+                                tmp = Convert.ToDouble(Console.ReadLine());
+                                TemperatureConvertor TC = new TemperatureConvertor(tmp);
+                                Console.WriteLine("Temperature in farenheit is {0}", TC.CelsiusToFaren());
+                            }
+                            catch
+                            {
+                                Console.WriteLine("Greska u parametrima!");
+                            }
+                            break;
+                        case 2:
+                            Console.WriteLine("Input temperature value in farenheit:");
+                            try
+                            {
+                                tmp = Convert.ToDouble(Console.ReadLine());
+                                TemperatureConvertor TC1 = new TemperatureConvertor(tmp);
+                                Console.WriteLine("Temperature in celsius is {0}",TC1.FarenToCelsius());
+                            }
+                            catch
+                            {
+                                Console.WriteLine("Greska u parametrima!");
+                            }
+                            break;
+                        default:
+                            {
+                                Console.WriteLine("Greska u parametrima!");
+                                break;
+                            }
+                    }
+                }
+                catch
+                {
+                    Console.WriteLine("Greska u parametrima!");
                 }
             }
         }

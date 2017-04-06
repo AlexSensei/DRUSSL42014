@@ -3,3 +3,8 @@ F:\College\Semestar6\SNUS\Domaci\Domaci\Domaci\bin\Debug\Domaci.pdb
 F:\College\Semestar6\SNUS\Domaci\Domaci\Domaci\obj\x86\Debug\Domaci.exe
 F:\College\Semestar6\SNUS\Domaci\Domaci\Domaci\obj\x86\Debug\Domaci.pdb
 F:\College\Semestar6\SNUS\Domaci\Domaci\Domaci\obj\x86\Debug\Domaci.csprojResolveAssemblyReference.cache
+F:\College\Semestar6\SNUS\Domaci\DRUSSL42014\DRUSSL42014\Domaci\Domaci\obj\x86\Debug\Domaci.exe
+F:\College\Semestar6\SNUS\Domaci\DRUSSL42014\DRUSSL42014\Domaci\Domaci\obj\x86\Debug\Domaci.pdb
+F:\College\Semestar6\SNUS\Domaci\DRUSSL42014\DRUSSL42014\Domaci\Domaci\bin\Debug\Domaci.exe
+F:\College\Semestar6\SNUS\Domaci\DRUSSL42014\DRUSSL42014\Domaci\Domaci\bin\Debug\Domaci.pdb
+F:\College\Semestar6\SNUS\Domaci\DRUSSL42014\DRUSSL42014\Domaci\Domaci\obj\x86\Debug\Domaci.csprojResolveAssemblyReference.cache
